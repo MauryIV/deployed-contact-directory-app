@@ -1,13 +1,13 @@
 {
   "name": "contact",
   "version": "1.0.0",
-  "description": "",
+  "description": "working with webpacks",
   "main": "server.js",
   "scripts": {
       "server": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thig Guy",
   "license": "ISC",
   "dependencies": {
       "express": "^4.17.1"

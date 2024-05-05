@@ -1,18 +1,18 @@
 {
   "name": "mini-project-develop",
   "version": "1.0.0",
-  "description": "",
+  "description": "working with webpack.config",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\" ",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server nodemon server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "",
+  "author": "This Guy",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
