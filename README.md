@@ -35,7 +35,8 @@ This is a nice reference for a PWA as well as if you want to be able to download
 
 <a id="Visuals"></a>
 ## Visuals
-NA
+![Screenshot 2024-05-07 at 3 51 30 PM](https://github.com/MauryIV/deployed-contact-directory-app/assets/146037880/17205bf1-24a0-4f5a-83bd-df22f09ec8ad)
+![Screenshot 2024-05-07 at 3 52 16 PM](https://github.com/MauryIV/deployed-contact-directory-app/assets/146037880/f4647a3b-f651-4b36-b3ec-e9cc707872ed)
 
 <a id="tests"></a>
 ## Tests
