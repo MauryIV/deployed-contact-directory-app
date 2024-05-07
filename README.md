@@ -1,74 +1,70 @@
-# Module 19 Mini-Project: Deploy Contact Directory App on Render with Script
+<a id="title"></a>
+# Contact Directory App 
 
-In this mini-project, you are given a simple application that needs to be updated to use webpack, service workers, and IndexedDB. In addition, it must have PWA functionality in order to work properly. Once you have updated the application with these new features, you will deploy it to Render. Render is not new to you, but you will need to add a handful of special scripts so that it knows to deploy your bundled application.
+<a id="description"></a>
+## Description
+This app uses a Progressive Web Application (PWA) that you can download to save contacts.
 
-## User Stories
+## Table of Contents
+- [Title](#title)
+- [Description](#description)
+- [Badges](#badges)
+- [Visuals](#visuals)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Authors and Acknowledgment](#acknowledgment)
+- [License](#license)
+- [Project Status](#status)
 
-Work with your group to resolve the following issues:
+<a id="badges"></a>
+## Badges
+![Maury Hughes IV](https://img.shields.io/badge/Maury%20Hughes%20IV-5A2BE2)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-* As a user, I want to be able to install the web application as a PWA.
+<a id="installation"></a>
+## Installation
+Will need to instal everything listed in the package.json file by running npm i.
 
-* As a user, I want to be able to add and remove my contact cards.
+<a id="usage"></a>
+## Usage
+This is a nice reference for a PWA as well as if you want to be able to download your own contact application.
 
-* As a developer, I want all my scripts to run from the root directory `package.json`.
+<a id="Visuals"></a>
+## Visuals
+NA
 
-* As a developer, I want to be able to run `npm run start:dev` in the command line and have both my client and server start.
+<a id="tests"></a>
+## Tests
+I just tested this on the local host in Chrome.
 
-* As a developer, I want to be able to run `npm run start` in the command line to run our build script and start our server.
+<a id="questions"></a>
+## Questions
+If you have any questions about the contents. Please feel free to reach out!
+Here is my [Github](https://github.com/MauryIV) as well as my email <mauryhughesiv@gmail.com>.
 
-* As a developer, I want to be able to run `npm run server` in the command line and have just our server start without the client.
+<a id="roadmap"></a>
+## Roadmap
+NA
 
-* As a developer, I want to be able to run `npm run build` in the command line and have our client run the webpack build script.
+<a id="contributing"></a>
+## Contributing
+Always open to contributions and suggestions.
 
-* As a developer, I want to be able to run `npm run install` in the command line and have all of the client's dependencies installed.
+<a id="acknowledgment"></a>
+## Authors and Acknowledgment
+Most the code was provided by the DU coding bootcamp along with the knowledge to finish the assignment.
 
-* As a developer, I want to be able to run `npm run client` in the command line and have just our client start without the server.
+<a id="license"></a>
+## License
+MIT License © 2024 Maury Hughes IV
+Please refer to this link, [License: MIT](https://opensource.org/licenses/MIT) for more information.
 
-## Acceptance Criteria
+<a id="status"></a>
+## Project Status
+Complete
 
-The mini-project is complete when the following criteria are met:
-
-* The application uses webpack for bundling.
-
-* The application uses a service worker to cache static assets.
-
-* The application uses IndexedDB GET, ADD, and DELETE methods.
-
-* The application uses object store for async/await.
-
-* The application uses CSS loaders.
-
-* Scripts are placed in the root and client directory's `package.json`.
-
-* `npm run start:dev` starts both the client and server.
-
-* `npm run start` runs the `build` script and starts the server.
-
-* `npm run server` starts just the server and not the client.
-
-* `npm run build` runs the webpack build script in the client.
-
-* `npm run install` installs the dependencies for the client.
-
-* `npm run client` starts the client without the server.
-
-* The web application can be installed from the web address provided by Render.
-
-* The web application is deployed using Render.
-
----
-
-## 💡 Hints
-
-* How do you navigate to different directories inside bash?
-
-* What is the operator for "and"?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* Incorporate a way to edit information on the contact card using a PUT method with IndexedDB.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+[back to top](#title)
